@@ -5,7 +5,7 @@ export const ResultImc = (props) => {
     return(
         <View>
             <Text>{props.resultImc}</Text>
-            <Text>{props.resultMessage}</Text>
+            <Text>{props.resultMesage}</Text>
         </View>
     )
 }
