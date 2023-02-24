@@ -4,9 +4,11 @@ import { Title } from './src/components/Title';
 
 export default function App() {
   return (
-      <View style={styles.container}>
+    <View style={styles.container}>
+      <View>
         <Form />
       </View>
+    </View>
   );
 }
 
@@ -15,6 +17,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
 });
